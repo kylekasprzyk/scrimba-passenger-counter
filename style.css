@@ -1,0 +1,100 @@
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/*
+    2. Remove default margin
+  */
+* {
+  margin: 0;
+}
+
+/*
+    3. Allow percentage-based heights in the application
+  */
+html,
+body {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  background-image: url("./images/Minnesota\ Light\ Rail.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-weight: bold;
+}
+
+.small__box {
+  margin-top: 2%;
+  }
+
+h1 {
+  margin: 10px;
+  color: white;
+  text-shadow: 0px 0px 5px #00489b;
+}
+
+h2 {
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: white;
+  text-shadow: 0px 0px 5px #00489b;
+}
+
+p {
+  color: white;
+  text-shadow: 0px 0px 5px #00489b;
+}
+
+button {
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  font-weight: bold;
+  width: 150px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+
+
+#increment-btn {
+  background: #f6d21a;
+  color: #0060cb;
+  border: 2px solid #0060cb;
+}
+
+#save-btn {
+  background: #0060cb;
+  border: 2px solid #f6d21a;
+  color: #f6d21a;
+}
+
+#increment-btn:hover {
+  background: #e9c200;
+}
+
+#save-btn:hover {
+  background: #00489b;
+}
