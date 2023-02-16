@@ -1,22 +1,13 @@
-/*
-  1. Use a more-intuitive box-sizing model.
-*/
 *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
 
-/*
-    2. Remove default margin
-  */
 * {
   margin: 0;
 }
 
-/*
-    3. Allow percentage-based heights in the application
-  */
 html,
 body {
   height: 100%;
@@ -45,36 +36,36 @@ body {
 
 .small__box {
   margin-top: 2%;
-  }
+}
 
 h1 {
-  margin: 10px;
+  margin: 0.625rem;
   color: white;
-  text-shadow: 0px 0px 5px #00489b;
+  text-shadow: 0 0 0.3125rem #00489b;
 }
 
 h2 {
-  font-size: 50px;
+  font-size: 3.125rem;
   margin-top: 0;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
   color: white;
-  text-shadow: 0px 0px 5px #00489b;
+  text-shadow: 0 0 0.3125rem #00489b;
 }
 
 p {
   color: white;
-  text-shadow: 0px 0px 5px #00489b;
+  text-shadow: 0 0 0.3125rem #00489b;
 }
 
 button {
   border: none;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
   color: white;
   font-weight: bold;
-  width: 150px;
-  margin: 5px;
-  border-radius: 5px;
+  width: 9.375rem;
+  margin: 0.3125rem;
+  border-radius: 0.3125rem;
 }
 
 
